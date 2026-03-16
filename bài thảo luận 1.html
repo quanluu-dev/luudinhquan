@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Trang web sinh viên</title>
+<style>
+body{
+    font-family: Arial;
+    width: 800px;
+    margin: auto;
+}
+header{
+    background: lightgray;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
+nav{
+    background: gray;
+    padding: 10px;
+    text-align: center;
+}
+nav a{
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.container{
+    display: flex;
+}
+aside{
+    width: 30%;
+    background: lightgray;
+    padding: 15px;
+}
+section{
+    width: 70%;
+    background: #eee;
+    padding: 15px;
+}
+article{
+    margin-bottom: 20px;
+}
+footer{
+    background: lightgray;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+}
+img{
+    width: 100%;
+}
+</style>
+</head>
+<body>
+<header>
+Banner - Trang Web Sinh Viên
+</header>
+<nav>
+<a href="#">Trang chủ</a>
+<a href="#">Tour</a>
+<a href="#">Hỗ trợ</a>
+<a href="#">Giới thiệu</a>
+</nav>
+<div class="container">
+<aside>
+<h3>Form đăng nhập</h3>
+<form>
+<label>Tên đăng nhập:</label><br>
+<input type="text" required><br><br>
+<label>Mật khẩu:</label><br>
+<input type="password" required><br><br>
+<label>Email:</label><br>
+<input type="email" required><br><br>
+<input type="submit" value="Đăng nhập">
+</form>
+</aside>
+<section>
+<article>
+<h3>Bài viết 1</h3>
+<img src="https://picsum.photos/400/200">
+<p>Đây là nội dung bài viết mẫu cho trang web sinh viên.</p>
+</article>
+<article>
+<h3>Bài viết 2</h3>
+<img src="https://picsum.photos/401/200">
+<p>Trang web được xây dựng bằng HTML5 và CSS cơ bản.</p>
+</article>
+</section>
+</div>
+<footer>
+Họ tên sinh viên - Lớp
+</footer>
+</body>
+</html>
